@@ -1,0 +1,85 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+:root {
+    --clr-primary: hsl(0, 0%, 100%);
+    --clr-background: hsl(212, 45%, 89%);
+    --clr-secondary:  hsl(220, 15%, 55%);
+    --clr-secondSecondary: hsl(218, 44%, 22%);
+    
+    --ff-primary: 'Outfit';
+    --ff-secondary: 'Poppins';
+    
+    --fontsize-400: '18px';
+    --fontsize-700: '25px';
+}
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: var(--clr-background);
+    font-family: 'Outfit';
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.header {
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+
+.content h2 {
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+    width:  350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.content p{
+        width: 350px;
+        font-size: 20px;
+        color: var(--clr-secondary);
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+.card .header .img__header {
+
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+
+
+
